@@ -3,6 +3,7 @@
 
 # Ignore Xcode user-related files
 xcuserdata/
+*.xcuserstate
 
 # Ignore installed CocoaPods files
 Pods/

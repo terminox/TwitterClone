@@ -1,0 +1,73 @@
+{
+    data: [
+        {
+            id: 0,
+            twitter_name: "Cloudinary",
+            twitter_id: "cloudinary",
+            is_verified: false,
+            has_thread: false,
+            date: "1h",
+            body: "Authomatic #responsive images solution for dynamic on-the-fly generation of image with and DPR",
+            comments_count: 0,
+            retweets_count: 0,
+            likes_count: 0,
+            link: "https://twitter.com/cloudinary/status/1160226875526000640?s=20"
+        },
+        
+        {
+            id: 1,
+            twitter_name: "The Linux Dev",
+            twitter_id: "TheLinuxDev",
+            is_verified: false,
+            has_thread: false,
+            date: "Jul 30",
+            body: "You've heard that containers are the future, but how can they be used in your daily duties as a dev? Read how to use them to set up test environments for potentially destructive scripts.",
+            comments_count: 0,
+            retweets_count: 3,
+            likes_count: 11,
+            link: "https://twitter.com/TheLinuxDev/status/1155964216005652480?s=20"
+        },
+        
+        {
+            id: 2,
+            twitter_name: "freeCodeCamp.org",
+            twitter_id: "freeCodeCamp",
+            is_verified: true,
+            has_thread: false,
+            date: "1h",
+            body: "The Hitchhiker's Guide To React Router v4: how to grok React Router in 20 minutes, by @eduardovedes",
+            comments_count: 0,
+            retweets_count: 6,
+            likes_count: 33,
+            link: "https://twitter.com/freeCodeCamp/status/1160219506322694149?s=20"
+        },
+        
+        {
+            id: 3,
+            twitter_name: "Paul Hudson",
+            twitter_id: "twostraws",
+            is_verified: false,
+            has_thread: true,
+            date: "3h",
+            body: "(Almost – almost! – make up for the fact that people here use the imperial system of measurements. My daughter is baffled, and I’m struggling with anything other than inches.)",
+            comments_count: 6,
+            retweets_count: 0,
+            likes_count: 4,
+            link: "https://twitter.com/twostraws/status/1160195774652780544?s=20"
+        },
+        
+        {
+            id: 4,
+            twitter_name: "Sean Allen",
+            twitter_id: "seanallen_dev",
+            is_verified: false,
+            has_thread: true,
+            date: "5h",
+            body: "Dog got ahold of the AirPods. Back to the Stone Age for a few days, I guess...",
+            comments_count: 21,
+            retweets_count: 5,
+            likes_count: 121,
+            link: "https://twitter.com/seanallen_dev/status/1160163548649132032?s=20"
+        }
+    ]
+}

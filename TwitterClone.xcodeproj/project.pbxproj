@@ -12,6 +12,8 @@
 		197DD3F122FF2EAF004EA607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197DD3EF22FF2EAF004EA607 /* LaunchScreen.storyboard */; };
 		197DD3FB22FF2F18004EA607 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 197DD3FA22FF2F18004EA607 /* README.md */; };
 		197DD3FD22FF305C004EA607 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197DD3FC22FF305C004EA607 /* MainViewController.swift */; };
+		197DD3FF22FF3495004EA607 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197DD3FE22FF3495004EA607 /* HomeViewController.swift */; };
+		197DD40122FF34FB004EA607 /* tweets.json in Resources */ = {isa = PBXBuildFile; fileRef = 197DD40022FF34FB004EA607 /* tweets.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		197DD3F222FF2EAF004EA607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		197DD3FA22FF2F18004EA607 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../../../../../../../Users/yossabourne/dev/projects/ios-projects/TwitterClone/README.md"; sourceTree = "<group>"; };
 		197DD3FC22FF305C004EA607 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		197DD3FE22FF3495004EA607 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		197DD40022FF34FB004EA607 /* tweets.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tweets.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				197DD3EF22FF2EAF004EA607 /* LaunchScreen.storyboard */,
 				197DD3F222FF2EAF004EA607 /* Info.plist */,
 				197DD3FC22FF305C004EA607 /* MainViewController.swift */,
+				197DD3FE22FF3495004EA607 /* HomeViewController.swift */,
+				197DD40022FF34FB004EA607 /* tweets.json */,
 			);
 			path = TwitterClone;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				197DD3F122FF2EAF004EA607 /* LaunchScreen.storyboard in Resources */,
 				197DD3EE22FF2EAF004EA607 /* Assets.xcassets in Resources */,
 				197DD3FB22FF2F18004EA607 /* README.md in Resources */,
+				197DD40122FF34FB004EA607 /* tweets.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			files = (
 				197DD3FD22FF305C004EA607 /* MainViewController.swift in Sources */,
 				197DD3E722FF2EAD004EA607 /* AppDelegate.swift in Sources */,
+				197DD3FF22FF3495004EA607 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
