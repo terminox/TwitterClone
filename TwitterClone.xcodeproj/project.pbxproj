@@ -8,22 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		197DD3E722FF2EAD004EA607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197DD3E622FF2EAD004EA607 /* AppDelegate.swift */; };
-		197DD3E922FF2EAD004EA607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197DD3E822FF2EAD004EA607 /* ViewController.swift */; };
-		197DD3EC22FF2EAD004EA607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197DD3EA22FF2EAD004EA607 /* Main.storyboard */; };
 		197DD3EE22FF2EAF004EA607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197DD3ED22FF2EAF004EA607 /* Assets.xcassets */; };
 		197DD3F122FF2EAF004EA607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197DD3EF22FF2EAF004EA607 /* LaunchScreen.storyboard */; };
 		197DD3FB22FF2F18004EA607 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 197DD3FA22FF2F18004EA607 /* README.md */; };
+		197DD3FD22FF305C004EA607 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197DD3FC22FF305C004EA607 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		197DD3E322FF2EAD004EA607 /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		197DD3E622FF2EAD004EA607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		197DD3E822FF2EAD004EA607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		197DD3EB22FF2EAD004EA607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		197DD3ED22FF2EAF004EA607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		197DD3F022FF2EAF004EA607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		197DD3F222FF2EAF004EA607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		197DD3FA22FF2F18004EA607 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../../../../../../../Users/yossabourne/dev/projects/ios-projects/TwitterClone/README.md"; sourceTree = "<group>"; };
+		197DD3FC22FF305C004EA607 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +56,10 @@
 			isa = PBXGroup;
 			children = (
 				197DD3E622FF2EAD004EA607 /* AppDelegate.swift */,
-				197DD3E822FF2EAD004EA607 /* ViewController.swift */,
-				197DD3EA22FF2EAD004EA607 /* Main.storyboard */,
 				197DD3ED22FF2EAF004EA607 /* Assets.xcassets */,
 				197DD3EF22FF2EAF004EA607 /* LaunchScreen.storyboard */,
 				197DD3F222FF2EAF004EA607 /* Info.plist */,
+				197DD3FC22FF305C004EA607 /* MainViewController.swift */,
 			);
 			path = TwitterClone;
 			sourceTree = "<group>";
@@ -128,7 +125,6 @@
 				197DD3F122FF2EAF004EA607 /* LaunchScreen.storyboard in Resources */,
 				197DD3EE22FF2EAF004EA607 /* Assets.xcassets in Resources */,
 				197DD3FB22FF2F18004EA607 /* README.md in Resources */,
-				197DD3EC22FF2EAD004EA607 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				197DD3E922FF2EAD004EA607 /* ViewController.swift in Sources */,
+				197DD3FD22FF305C004EA607 /* MainViewController.swift in Sources */,
 				197DD3E722FF2EAD004EA607 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		197DD3EA22FF2EAD004EA607 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				197DD3EB22FF2EAD004EA607 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		197DD3EF22FF2EAF004EA607 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
