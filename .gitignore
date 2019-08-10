@@ -1,0 +1,11 @@
+# Ignore macOS Finder user-related files
+.DS_Store
+
+# Ignore Xcode user-related files
+xcuserdata/
+
+# Ignore installed CocoaPods files
+Pods/
+
+# Ignore installed Carthage files
+Carthage/
