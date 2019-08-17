@@ -106,6 +106,14 @@
 			path = TwitterCloneUITests;
 			sourceTree = "<group>";
 		};
+		193E54C623085678001CCB53 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				197DD3FC22FF305C004EA607 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		1949E41C2307F1B5004D73DD /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +141,7 @@
 		1961B2322307F14A00D265FB /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				193E54C623085678001CCB53 /* Main */,
 				1949E4232307F2DB004D73DD /* Menu */,
 				1961B2332307F15300D265FB /* Home */,
 			);
@@ -177,7 +186,6 @@
 				197DD3ED22FF2EAF004EA607 /* Assets.xcassets */,
 				197DD3EF22FF2EAF004EA607 /* LaunchScreen.storyboard */,
 				197DD3F222FF2EAF004EA607 /* Info.plist */,
-				197DD3FC22FF305C004EA607 /* MainViewController.swift */,
 				197DD40022FF34FB004EA607 /* tweets.json */,
 				1949E41C2307F1B5004D73DD /* Models */,
 				1961B2322307F14A00D265FB /* Scenes */,
