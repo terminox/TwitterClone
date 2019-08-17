@@ -18,8 +18,12 @@ class HomeViewController: UIViewController {
         
         tableView = UITableView()
         tableView.translatesAutoresizingMaskIntoConstraints = false
+        tableView.backgroundColor = .rgb(0xE7ECF2)
+        tableView.tableFooterView = UIView()
+        tableView.separatorInset = .zero
         tableView.dataSource = self
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        tableView.delegate = self
+        tableView.register(TweetCell.self, forCellReuseIdentifier: TweetCell.reuseIdentifier)
         
         view.addSubview(tableView)
         NSLayoutConstraint.activate([
@@ -64,15 +68,27 @@ extension HomeViewController {
     }
 }
 
-// MARK: - UITableViewDataSource
-extension HomeViewController: UITableViewDataSource {
+// MARK: - UITableViewDataSource & UITableViewDelegate
+extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return tweets.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        cell.textLabel?.text = tweets[indexPath.row].twitterName
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: TweetCell.reuseIdentifier, for: indexPath) as? TweetCell else {
+            fatalError()
+        }
+        
+        let tweet = tweets[indexPath.row]
+        cell.configure(using: TweetCellPresenter.present(tweet: tweet))
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 200.0
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableView.automaticDimension
     }
 }
