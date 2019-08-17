@@ -11,6 +11,7 @@
 		193974DC22FFF92E00F3A04D /* TwitterCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193974DB22FFF92E00F3A04D /* TwitterCloneUITests.swift */; };
 		1949E41E2307F1CA004D73DD /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E41D2307F1BE004D73DD /* Tweet.swift */; };
 		1949E4222307F21B004D73DD /* UIColor+rgb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E4212307F215004D73DD /* UIColor+rgb.swift */; };
+		1949E4252307F2EA004D73DD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949E4242307F2EA004D73DD /* MenuViewController.swift */; };
 		1961B2352307F15A00D265FB /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1961B2342307F15A00D265FB /* TweetCell.swift */; };
 		1961B2372307F15C00D265FB /* TweetCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1961B2362307F15C00D265FB /* TweetCellPresenter.swift */; };
 		197DD3E722FF2EAD004EA607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197DD3E622FF2EAD004EA607 /* AppDelegate.swift */; };
@@ -48,6 +49,7 @@
 		193974DD22FFF92E00F3A04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1949E41D2307F1BE004D73DD /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		1949E4212307F215004D73DD /* UIColor+rgb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+rgb.swift"; sourceTree = "<group>"; };
+		1949E4242307F2EA004D73DD /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = "../../../../../../../../../System/Volumes/Data/Users/yossabourne/dev/projects/ios-projects/TwitterClone/TwitterClone/Scenes/Menu/MenuViewController.swift"; sourceTree = "<group>"; };
 		1961B2342307F15A00D265FB /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 		1961B2362307F15C00D265FB /* TweetCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellPresenter.swift; sourceTree = "<group>"; };
 		197DD3E322FF2EAD004EA607 /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,9 +122,18 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		1949E4232307F2DB004D73DD /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				1949E4242307F2EA004D73DD /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		1961B2322307F14A00D265FB /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				1949E4232307F2DB004D73DD /* Menu */,
 				1961B2332307F15300D265FB /* Home */,
 			);
 			path = Scenes;
@@ -330,6 +341,7 @@
 				1949E41E2307F1CA004D73DD /* Tweet.swift in Sources */,
 				197DD3FF22FF3495004EA607 /* HomeViewController.swift in Sources */,
 				1961B2372307F15C00D265FB /* TweetCellPresenter.swift in Sources */,
+				1949E4252307F2EA004D73DD /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
