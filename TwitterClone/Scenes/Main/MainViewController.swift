@@ -70,6 +70,15 @@ extension MainViewController: ScrollViewControllerDelegate {
         return homeViewController
     }
     
+    func scrollViewController(_ scrollViewController: ScrollViewController, widthScaleForScreenAt index: Int) -> CGFloat {
+        switch index {
+        case 0:
+            return 0.8
+        default:
+            return 1.0
+        }
+    }
+    
     func scrollViewDidScroll() {
         // MARK: - TODO
     }
